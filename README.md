@@ -1,6 +1,6 @@
 # Core Byte Media LLC — Print-on-Demand Storefront
 
-A static, front-end-only e-commerce site for **corebytemediallc.com**, built with Next.js 16
+A static, front-end-only e-commerce site for **corebytemedia.com**, built with Next.js 16
 (App Router), Tailwind CSS v4 and JavaScript. There is no backend: the catalogue is local data,
 the cart lives in `localStorage`, and orders are completed client-side with Cash on Delivery.
 

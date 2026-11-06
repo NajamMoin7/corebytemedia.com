@@ -6,7 +6,7 @@
  * touching UI code.
  */
 
-export const SITE_URL = 'https://corebytemediallc.com';
+export const SITE_URL = 'https://corebytemedia.com';
 
 export const BRAND = {
   name: 'Core Byte Media LLC',
@@ -48,7 +48,7 @@ export const LOGO = {
  * contact surfaces and structured data stay in sync.
  */
 export const CONTACT = {
-  email: 'support@corebytemediallc.com',
+  email: 'support@corebytemedia.com',
   phoneDisplay: '(754) 247-8047',
   phoneHref: '+17542478047',
   hours: [
