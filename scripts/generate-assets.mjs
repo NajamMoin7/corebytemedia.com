@@ -7,7 +7,7 @@
  * files in `public/products` (keeping the same filenames) or point the `images`
  * array in `data/products.js` at the new files — no other change is required.
  *
- * The logo printed on each product is the real Core Byte Media LLC artwork,
+ * The logo printed on each product is the real Core Byte Media artwork,
  * cropped from the master in `brand/` by scripts/brand-artwork.mjs and embedded
  * as a data URI. It has to be embedded rather than linked: a browser will not
  * fetch external resources from inside an SVG that is used as an image source.
@@ -492,7 +492,7 @@ for (const base of CUSTOMIZE_BASES) {
 // Category tiles reuse the product art, so nothing further to generate.
 const branded = count - blanks;
 console.log(`Generated ${count} SVG assets:`);
-console.log(`  ${branded} product mockups printed with the Core Byte Media LLC logo`);
+console.log(`  ${branded} product mockups printed with the Core Byte Media logo`);
 console.log(`  ${blanks} blank customiser bases (deliberately unbranded)`);
 console.log(
   `  embedded artwork: standard ${Math.round(ART_SETS.standard.full.bytes / 1024)}KB / ` +

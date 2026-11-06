@@ -6,7 +6,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Terms & Conditions',
   description:
-    'Terms of use for the Core Byte Media LLC website — orders, pricing, cancellation, Cash on Delivery, customised products, intellectual property in uploaded designs, prohibited content and liability.',
+    'Terms of use for the Core Byte Media website — orders, pricing, cancellation, Cash on Delivery, customised products, intellectual property in uploaded designs, prohibited content and liability.',
   path: '/terms-and-conditions',
 });
 

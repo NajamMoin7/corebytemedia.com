@@ -5,7 +5,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Privacy Policy',
   description:
-    'What information Core Byte Media LLC collects, how it is used, how your browser stores cart and design data, and what rights you have over your information.',
+    'What information Core Byte Media collects, how it is used, how your browser stores cart and design data, and what rights you have over your information.',
   path: '/privacy-policy',
 });
 

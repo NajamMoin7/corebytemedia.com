@@ -14,7 +14,7 @@ import sharp from 'sharp';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export const ROOT = resolve(__dirname, '..');
-export const MASTER = resolve(ROOT, 'brand/Core Byte Media LLC.png');
+export const MASTER = resolve(ROOT, 'brand/Core Byte Media.png');
 
 /** Expected canvas of the master file; the crops below are measured against it. */
 export const MASTER_SIZE = { width: 1254, height: 1254 };

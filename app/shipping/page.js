@@ -6,7 +6,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Shipping Information',
   description:
-    'Production times, US delivery estimates, standard shipping rates, free shipping over $75, order tracking and delivery delays for Core Byte Media LLC orders.',
+    'Production times, US delivery estimates, standard shipping rates, free shipping over $75, order tracking and delivery delays for Core Byte Media orders.',
   path: '/shipping',
 });
 

@@ -10,9 +10,9 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Frequently Asked Questions',
   description:
-    'Answers about ordering, customisation and uploaded artwork, shipping times, Cash on Delivery, card payment availability, returns and sizing at Core Byte Media LLC.',
+    'Answers about ordering, customisation and uploaded artwork, shipping times, Cash on Delivery, card payment availability, returns and sizing at Core Byte Media.',
   path: '/faq',
-  shareTitle: 'FAQ | Core Byte Media LLC',
+  shareTitle: 'FAQ | Core Byte Media',
 });
 
 const FAQ_JSON_LD = {

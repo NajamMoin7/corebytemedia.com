@@ -5,7 +5,7 @@ import { pageMetadata } from '@/lib/seo';
 
 export const metadata = pageMetadata({
   title: 'Shopping Cart',
-  description: 'Review the items in your Core Byte Media LLC cart before checking out.',
+  description: 'Review the items in your Core Byte Media cart before checking out.',
   path: '/cart',
   noindex: true,
 });

@@ -30,7 +30,7 @@ import sharp from 'sharp';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 
-const SOURCE = resolve(root, 'brand/Core Byte Media LLC.png');
+const SOURCE = resolve(root, 'brand/Core Byte Media.png');
 const LOGO_DIR = resolve(root, 'public/logo');
 const APP_DIR = resolve(root, 'app');
 

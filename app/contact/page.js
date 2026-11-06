@@ -10,9 +10,9 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Contact Us',
   description:
-    'Get in touch with Core Byte Media LLC about orders, custom printing, sizing or returns. Email, phone and business hours.',
+    'Get in touch with Core Byte Media about orders, custom printing, sizing or returns. Email, phone and business hours.',
   path: '/contact',
-  shareTitle: 'Contact Core Byte Media LLC',
+  shareTitle: 'Contact Core Byte Media',
 });
 
 export default function ContactPage() {

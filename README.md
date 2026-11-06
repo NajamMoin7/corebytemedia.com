@@ -1,4 +1,4 @@
-# Core Byte Media LLC — Print-on-Demand Storefront
+# Core Byte Media — Print-on-Demand Storefront
 
 A static, front-end-only e-commerce site for **corebytemedia.com**, built with Next.js 16
 (App Router), Tailwind CSS v4 and JavaScript. There is no backend: the catalogue is local data,
@@ -20,7 +20,7 @@ npm run logo     # regenerate the logo derivatives from brand/
 
 ### Branding
 
-The master artwork is `brand/Core Byte Media LLC.png` (1254×1254, transparent). It lives
+The master artwork is `brand/Core Byte Media.png` (1254×1254, transparent). It lives
 outside `public/` so the full-resolution original is not shipped to every visitor, and it is
 never modified.
 
@@ -37,7 +37,7 @@ stretched:
 | `app/opengraph-image.png` / `twitter-image.png` | 1200×630 | Social share card |
 
 **Why the header shows the mark, not the full lockup.** The supplied lockup is stacked, and the
-wordmark is only 14% of its height — at a 64px header the words "Core Byte Media LLC" would
+wordmark is only 14% of its height — at a 64px header the words "Core Byte Media" would
 render about 7px tall and read as a gold smudge. The header uses the hexagon monogram; the full
 lockup appears wherever there is room (footer at 104px, order confirmation at 76px, share card).
 To use the full lockup in the header instead, change the `<Logo>` call in

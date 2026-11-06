@@ -6,7 +6,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Checkout',
   description:
-    'Complete your Core Byte Media LLC order. Enter your US shipping address, choose a payment method, and place your order.',
+    'Complete your Core Byte Media order. Enter your US shipping address, choose a payment method, and place your order.',
   path: '/checkout',
   noindex: true,
   nofollow: true,

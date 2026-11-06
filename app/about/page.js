@@ -19,9 +19,9 @@ import {
 export const metadata = pageMetadata({
   title: 'About Us',
   description:
-    'Core Byte Media LLC is a modern digital and print-on-demand brand producing premium customised apparel and accessories. Read about our mission, values and quality commitment.',
+    'Core Byte Media is a modern digital and print-on-demand brand producing premium customised apparel and accessories. Read about our mission, values and quality commitment.',
   path: '/about',
-  shareTitle: 'About Core Byte Media LLC',
+  shareTitle: 'About Core Byte Media',
 });
 
 const VALUES = [
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </h2>
             <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted sm:text-base">
               <p>
-                Core Byte Media LLC exists because getting one good custom garment printed used to be
+                Core Byte Media exists because getting one good custom garment printed used to be
                 harder than getting five hundred mediocre ones. Traditional printing is built around
                 bulk: minimum runs, setup charges, and a box of unsold stock at the end of it.
               </p>
@@ -100,7 +100,7 @@ export default function AboutPage() {
                 what it sits on.
               </p>
               <p>
-                Core Byte Media LLC is a US-based print-on-demand studio. Everything on this site is
+                Core Byte Media is a US-based print-on-demand studio. Everything on this site is
                 produced to order and shipped to customers across the United States.
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function AboutPage() {
               <div className="relative aspect-4/5 overflow-hidden rounded-xl border border-line bg-obsidian">
                 <Image
                   src="/photos/core-byte-hoodie.png"
-                  alt="Signature Gold Hoodie from the Core Byte Media LLC range"
+                  alt="Signature Gold Hoodie from the Core Byte Media range"
                   fill
                   sizes="(max-width: 1024px) 45vw, 22vw"
                   className="object-cover"
@@ -120,7 +120,7 @@ export default function AboutPage() {
               <div className="relative mt-8 aspect-4/5 overflow-hidden rounded-xl border border-line bg-obsidian">
                 <Image
                   src="/photos/core-byte-tee.png"
-                  alt="Premium Oversized Tee from the Core Byte Media LLC range"
+                  alt="Premium Oversized Tee from the Core Byte Media range"
                   fill
                   sizes="(max-width: 1024px) 45vw, 22vw"
                   className="object-cover"
