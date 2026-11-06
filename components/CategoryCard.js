@@ -16,7 +16,7 @@ export default function CategoryCard({ category, priority = false, size = 'md' }
       <div className={`relative overflow-hidden bg-obsidian ${tall ? 'aspect-4/5' : 'aspect-square'}`}>
         <Image
           src={category.image}
-          alt={`${category.name} — Core Byte Media LLC`}
+          alt={`${category.name} — Core Byte Media`}
           fill
           sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
           priority={priority}

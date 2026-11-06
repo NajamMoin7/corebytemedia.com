@@ -46,7 +46,7 @@ const PRODUCT_PHOTOS = {
 function build(product) {
   const { colorKeys } = product;
   const photo = PRODUCT_PHOTOS[product.category] || PRODUCT_PHOTOS['t-shirts'];
-  const alt = `${product.name} with the Core Byte Media LLC logo`;
+  const alt = `${product.name} with the Core Byte Media logo`;
 
   const images = [{ src: photo, alt }];
 

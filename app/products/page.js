@@ -9,7 +9,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'All Products',
   description:
-    'Browse the full Core Byte Media LLC catalogue — t-shirts, oversized tees, hoodies, sweatshirts, polos, caps, mugs and tote bags. Filter by category, price and availability.',
+    'Browse the full Core Byte Media catalogue — t-shirts, oversized tees, hoodies, sweatshirts, polos, caps, mugs and tote bags. Filter by category, price and availability.',
   path: '/products',
 });
 

@@ -13,7 +13,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Product Categories',
   description:
-    'Explore Core Byte Media LLC product categories — t-shirts, oversized tees, hoodies, sweatshirts, polo shirts, caps, mugs, tote bags and fully custom products.',
+    'Explore Core Byte Media product categories — t-shirts, oversized tees, hoodies, sweatshirts, polo shirts, caps, mugs, tote bags and fully custom products.',
   path: '/categories',
 });
 
@@ -49,7 +49,7 @@ export default function CategoriesPage() {
                 >
                   <Image
                     src={category.image}
-                    alt={`${category.name} — Core Byte Media LLC`}
+                    alt={`${category.name} — Core Byte Media`}
                     fill
                     sizes="(max-width: 640px) 100vw, 288px"
                     priority={index < 2}

@@ -8,7 +8,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata = pageMetadata({
   title: 'Search',
   description:
-    'Search the Core Byte Media LLC catalogue by product name, category, description or tag.',
+    'Search the Core Byte Media catalogue by product name, category, description or tag.',
   path: '/search',
   noindex: true,
 });

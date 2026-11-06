@@ -31,12 +31,12 @@ export async function generateMetadata({ params }) {
   const price = product.salePrice ?? product.price;
 
   return {
-    title: product.name,
+    title: { absolute: `${product.name} | Core Byte Media` },
     description: product.description,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {
       type: 'website',
-      title: `${product.name} | Core Byte Media LLC`,
+      title: `${product.name} | Core Byte Media`,
       description: product.description,
       url: `/products/${product.slug}`,
       images: [{ url: product.images[0].src, alt: product.images[0].alt }],
@@ -72,7 +72,7 @@ export default async function ProductPage({ params }) {
     sku: product.sku,
     category: categoryName,
     image: product.images.map((image) => `${SITE_URL}${image.src}`),
-    brand: { '@type': 'Brand', name: 'Core Byte Media LLC' },
+    brand: { '@type': 'Brand', name: 'Core Byte Media' },
     // Google rejects an AggregateRating with no reviews behind it.
     ...(product.reviews > 0 && {
       aggregateRating: {
